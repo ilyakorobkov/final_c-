@@ -4,3 +4,4 @@ QT += widgets
 SOURCES += main.cpp \
            snake.cpp
 HEADERS += snake.h
+RESOURCES += images.qrc
