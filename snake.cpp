@@ -1,6 +1,8 @@
 #include "snake.h"
 #include <QPainter>
 #include <QTime>
+#include <QMessageBox>
+#include <cstdlib>
 
 Snake::Snake(QWidget *parent) : QWidget(parent) {
     setStyleSheet("background-color: black;");
